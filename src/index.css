@@ -1,0 +1,16 @@
+@import url(./assets/css/icons.css);
+@import url(./assets/css/element-icons.css);
+
+html {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  width: 100vw;
+}
+
+.dark-theme .dialog {
+  background-color: var(--bg);
+}
+
+.dark-theme .gn-button {
+  border-color: transparent;
+}
